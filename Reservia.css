@@ -1,0 +1,40 @@
+header {
+  height: 120px;
+  background-color: red;
+}
+
+#Recherche {
+  width: auto;
+  height: 270px;
+  background-color: blue;
+}
+
+#Hebergement {
+  height: 635px;
+  background-color: green;
+}
+
+#Activiter {
+  height: 534px;
+  background-color: hotpink;
+}
+
+footer {
+  height: 216px;
+  background-color: indigo;
+}
+
+nav {
+  margin-top: 45px;
+  float: right;
+  width: 33%;
+  height: 33%;
+  background-color: ivory;
+}
+
+aside {
+  background-color: lemonchiffon;
+  width: 33%;
+  height: 535px;
+  float: right;
+}
