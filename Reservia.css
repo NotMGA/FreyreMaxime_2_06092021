@@ -1,6 +1,12 @@
+body {
+  margin-left: 2em;
+  margin-right: 2em;
+  font-family: "Raleway", sans-serif;
+}
+
 header {
-  height: 120px;
-  background-color: red;
+  position: relative;
+  height: 5em;
 }
 
 #Recherche {
@@ -21,15 +27,11 @@ header {
 
 footer {
   height: 216px;
-  background-color: indigo;
 }
 
-nav {
-  margin-top: 45px;
+#menuhaut {
   float: right;
-  width: 33%;
-  height: 33%;
-  background-color: ivory;
+  width: auto;
 }
 
 aside {
@@ -37,4 +39,45 @@ aside {
   width: 33%;
   height: 535px;
   float: right;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  margin-left: 2em;
+  height: 5em;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  padding: 10px 20px;
+  color: #0065fc;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  border-top: 1px solid #0065fc;
+}
+
+#menuhebergement,
+#apropo,
+#assistance {
+  float: left;
+  margin-left: 10%;
+  list-style: none;
+}
+
+#apropo li a,
+#menuhebergement li a,
+#assistance li a {
+  text-decoration: none;
+}
+
+#apropo li,
+#menuhebergement li,
+#assistance li {
+  margin-bottom: 10px;
 }
