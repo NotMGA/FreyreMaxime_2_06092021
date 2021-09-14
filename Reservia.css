@@ -24,11 +24,6 @@ header {
   height: 270px;
 }
 
-#Hebergement {
-  height: 635px;
-  background-color: green;
-}
-
 #Activiter {
   height: 534px;
   background-color: hotpink;
@@ -44,13 +39,82 @@ footer {
   width: auto;
 }
 
-aside {
-  background-color: lemonchiffon;
-  width: 33%;
-  height: 535px;
+.populaire {
+  background-color: #f2f2f2;
+  width: 30%;
+  height: 635px;
   float: right;
+  padding: 2%;
+  border-radius: 1em;
+}
+.logo_populaire {
+  float: right;
+  margin: 0.83em;
+  font-size: 1.5em;
+  height: 1em;
 }
 
+.flex_colum {
+  display: flex;
+  flex-direction: column;
+}
+
+.size_image_pop {
+  max-width: 60%;
+  border-radius: 1em 0 0 1em;
+}
+
+.size_populaire {
+  width: 97%;
+  height: 20%;
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 1em;
+  margin: 1%;
+  margin-bottom: 15%;
+}
+
+.hebergement_mars {
+  height: 635px;
+  width: 70%;
+  background-color: #f2f2f2;
+  padding: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border-radius: 1em;
+}
+
+.size_hebergement {
+  width: 30%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 1em;
+  margin: 1%;
+}
+h4 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+.size_image {
+  max-height: 11em;
+  border-radius: 1em 1em 0 0;
+}
+
+.flexbox_warp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titre_hebergement {
+  height: 1em;
+  width: 100%;
+}
 .logo {
   position: absolute;
   bottom: 0;
@@ -97,26 +161,26 @@ aside {
   height: 2em;
 }
 .loc {
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
 }
 .search {
-  height: 2em;
+  height: 3em;
   width: 11em;
 }
 .barre_cmpt {
-  width: 20em;
+  width: 18em;
 }
 
 .search_ {
   border: 0;
-  height: 2em;
+  height: 3em;
 }
 
 .bt {
-  height: 2em;
+  height: 3em;
   border-radius: 0 10px 10px 0;
   border: 0;
   background-color: #0065fc;
@@ -126,7 +190,8 @@ aside {
 .size_filtre {
   width: auto;
   height: 2em;
-  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
 }
 
 .border_icone {
@@ -145,5 +210,5 @@ aside {
 }
 
 .bandeau_filtre {
-  height: 2em;
+  height: auto;
 }
