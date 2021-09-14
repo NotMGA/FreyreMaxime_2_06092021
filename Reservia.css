@@ -15,6 +15,10 @@ header {
   align-items: center;
 }
 
+.centre_left {
+  display: flex;
+}
+
 #Recherche {
   width: auto;
   height: 270px;
@@ -117,4 +121,29 @@ aside {
   border: 0;
   background-color: #0065fc;
   color: white;
+}
+
+.size_filtre {
+  width: auto;
+  height: 2em;
+  margin-left: 3%;
+}
+
+.border_icone {
+  background-color: #deebff;
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+}
+
+.border_filtre {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 20px;
+  border-left-style: none;
+}
+
+.bandeau_filtre {
+  height: 2em;
 }
