@@ -24,9 +24,52 @@ header {
   height: 270px;
 }
 
-#Activiter {
+.Activiter {
   height: 534px;
   background-color: hotpink;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.activiter_titre {
+  grid-column: 1/11;
+  grid-row: 1;
+}
+.port {
+  grid-column: 1;
+  grid-row: 1/4;
+}
+
+.fort {
+  grid-column: 2;
+  grid-row: 1/3;
+  background-color: white;
+}
+
+.parc_nat {
+  grid-column: 3;
+  grid-row: 1/4;
+}
+
+.la_garde {
+  grid-column: 4;
+  grid-row: 1/2;
+}
+
+.iles {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.parc_long {
+  grid-column: 4;
+  grid-row: 3/4;
+}
+
+.img_act {
+  max-height: 11em;
+  border-radius: 1em 1em 0 0;
 }
 
 footer {
@@ -60,18 +103,18 @@ footer {
 }
 
 .size_image_pop {
-  max-width: 60%;
+  max-width: 50%;
   border-radius: 1em 0 0 1em;
 }
 
 .size_populaire {
   width: 97%;
-  height: 20%;
+  height: 10%;
   background-color: white;
   padding: 0.2em;
   border-radius: 1em;
   margin: 1%;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .hebergement_mars {
