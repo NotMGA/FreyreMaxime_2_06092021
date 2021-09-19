@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.neutre {
+  text-decoration: none;
+  color: black;
+}
+
 .centre2 {
   display: flex;
   align-items: center;
@@ -204,6 +209,7 @@ header {
   height: 12em;
   object-fit: cover;
   border-radius: 1em 1em 0 0;
+  width: 100%;
 }
 
 .grey {
@@ -280,6 +286,7 @@ header {
 .size_act {
   border-radius: 1em;
   background-color: white;
+  border-width: ;
 }
 .port {
   grid-column: 1;
