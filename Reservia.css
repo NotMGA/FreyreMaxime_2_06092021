@@ -239,7 +239,7 @@ header {
 }
 
 .size_image_pop {
-  height: 11em;
+  height: 100%;
   width: 50%;
   object-fit: cover;
   border-radius: 1em 0 0 1em;
