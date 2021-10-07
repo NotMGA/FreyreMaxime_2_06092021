@@ -72,7 +72,7 @@ header {
   display: inline;
 }
 .low_marg_top2 {
-  margin-top: 3%;
+  margin-top: 3.4em;
 }
 
 .menu li a,
@@ -443,6 +443,9 @@ p {
   Header {
     height: auto;
   }
+  .low_marg_top2 {
+    margin-top: 1em;
+  }
   .logo {
     height: 8em;
     position: relative;
@@ -465,7 +468,7 @@ p {
   }
   /* FIN A.M */
   .inscrire {
-    font-size: 350%;
+    font-size: 250%;
   }
   .size_m {
     width: 50%;
@@ -495,13 +498,14 @@ p {
     border-top: 0px;
   }
   h1 {
-    font-size: 3.6em;
+    font-size: 2.6em;
   }
   .mob {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .barre_cmpt {
     width: auto;
+    margin-top: 4em;
   }
   .loc {
     width: 3em;
@@ -529,13 +533,13 @@ p {
   }
   .bandeau_filtre {
     height: auto;
-    font-size: 3.1em;
+    font-size: 2em;
     flex-wrap: wrap;
     margin-bottom: 5%;
   }
   .border_filtre {
     border-radius: 45px;
-    border-width: 3px;
+    border-width: 1px;
   }
   .bt {
     display: none;
@@ -551,7 +555,7 @@ p {
     color: white;
   }
   .mob2 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .hebergement {
     display: flex;
@@ -600,7 +604,7 @@ p {
     box-shadow: 7px 7px 15px 4px #c1c1c1;
   }
   .size_image {
-    height: 20em;
+    height: 12em;
   }
   .grid {
     display: grid;
@@ -622,8 +626,9 @@ p {
     justify-content: none;
     align-items: center;
     display: flex;
-    padding: 1.5%;
+    padding: 2.5%;
     font-size: 2em;
+    margin-left: 4%;
   }
   .Activiter {
     height: 200em;
@@ -661,10 +666,10 @@ p {
     flex-direction: column;
   }
   footer {
-    margin-top: 2%;
+    margin-top: 5%;
     height: auto;
     background-color: #f2f2f2;
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
 
@@ -724,6 +729,7 @@ p {
   .star_pop {
     margin-top: 3em;
   }
+
   .populaire {
     width: 30%;
   }
